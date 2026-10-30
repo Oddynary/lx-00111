@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>The Making Of ♡</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=Playwrite+AU+SA:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="grain"></div>
+
+    <main>
+      <section class="section documentary-section">
+        <div class="documentary-content">
+          <p class="eyebrow">the last thing</p>
+
+          <h2>
+            The making of
+            <span>this little world.</span>
+          </h2>
+
+          <p>
+            The code, the broken layouts, the unnecessarily tiny details, and
+            the questionable number of hours spent making a website for one
+            person.
+          </p>
+
+          <iframe
+            id="documentary-video"
+            class="documentary-video"
+            src="https://www.youtube.com/embed/lyXLIg8vgEw?rel=0&playsinline=1&enablejsapi=1"
+            title="The making of this little world"
+            allow="accelerometer; encrypted-media; picture-in-picture"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+
+          <div class="documentary-end">
+            <a href="index.html" class="primary-button">
+              Back to the beginning ♡
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="music-widget">
+      <span class="music-dot"></span>
+
+      <div>
+        <small>NOW PLAYING</small>
+        <strong>Tejano Blue - Cigarettes After Sex</strong>
+      </div>
+
+      <button id="music-toggle" type="button" aria-label="Toggle music">
+        ♫
+      </button>
+    </div>
+
+    <audio
+      id="background-music"
+      src="Music 1/Tejano.mp3"
+      loop
+      preload="auto"
+    ></audio>
+
+    <script src="music.js"></script>
+  </body>
+</html>

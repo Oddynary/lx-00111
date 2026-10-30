@@ -1,0 +1,498 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>For My Shroom 💗</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600&family=Playwrite+AU+SA:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- =====================================================
+         PASSWORD SCREEN
+    ====================================================== -->
+
+    <section id="login-screen" class="login-screen">
+      <div class="login-overlay"></div>
+
+      <div class="login-card">
+        <p class="tiny-label">A little corner of the internet</p>
+
+        <h1>
+          This is for<br />
+          <span>you.</span>
+        </h1>
+
+        <p class="login-message">
+          There is a tiny secret standing between you and everything I made for
+          you.
+        </p>
+
+        <div class="password-wrapper">
+          <input
+            type="password"
+            id="password-input"
+            placeholder="Enter the password"
+            autocomplete="off"
+          />
+
+          <button id="toggle-password" type="button" aria-label="Show password">
+            👁
+          </button>
+        </div>
+
+        <button id="enter-button" class="primary-button" type="button">
+          Enter my little world
+        </button>
+
+        <p id="login-status" class="login-status"></p>
+      </div>
+
+      <div class="login-corner">made with an unreasonable amount of love ♡</div>
+    </section>
+
+    <!-- =====================================================
+         MAIN WEBSITE
+    ====================================================== -->
+
+    <main id="main-site" class="hidden">
+      <!-- Decorative grain -->
+      <div class="grain"></div>
+
+      <!-- =================================================
+             NAVIGATION
+        ================================================== -->
+
+      <header class="site-header">
+        <a href="#hero" class="site-logo">
+          <span>for</span>
+          my shroom ♡
+        </a>
+
+        <nav class="desktop-nav">
+          <a href="#together">Us</a>
+          <a href="#self-love">Her</a>
+          <a href="#reasons">Reasons</a>
+          <a href="#memories">Memories</a>
+          <a href="#poetry">Words</a>
+          <a href="#letter">Letter</a>
+        </nav>
+
+        <button
+          id="menu-button"
+          class="menu-button"
+          type="button"
+          aria-label="Open menu"
+        >
+          <span></span>
+          <span></span>
+        </button>
+      </header>
+
+      <!-- MOBILE MENU -->
+
+      <div id="mobile-menu" class="mobile-menu">
+        <a href="#together">Us</a>
+        <a href="#self-love">Her</a>
+        <a href="#reasons">Reasons</a>
+        <a href="#memories">Memories</a>
+      </div>
+
+      <!-- =================================================
+             HERO
+        ================================================== -->
+
+      <section id="hero" class="hero section">
+        <div class="hero-background"></div>
+
+        <div class="hero-content">
+          <p class="eyebrow reveal">01 / something I made for you</p>
+
+          <h1 class="hero-title reveal">
+            Happiest birthday
+            <span>to my cutest human.</span>
+          </h1>
+
+          <p id="rotating-message" class="hero-subtitle reveal">
+            You make everything softer.
+          </p>
+
+          <div class="hero-actions reveal">
+            <a href="#together" class="primary-button"> Start here ♡ </a>
+
+            <a href="#self-love" class="text-link"> or just scroll ↓ </a>
+          </div>
+        </div>
+
+        <div class="hero-note">
+          <span>scroll slowly</span>
+          <span>there's a lot to see</span>
+        </div>
+
+        <div class="hero-number">01</div>
+      </section>
+
+      <!-- =================================================
+             TOGETHER / TIMER
+        ================================================== -->
+
+      <section id="together" class="section together-section">
+        <div class="section-number">02</div>
+
+        <div class="section-heading">
+          <p class="eyebrow">How long have we been us?</p>
+
+          <h2>
+            Apparently,
+            <span>a very long time.</span>
+          </h2>
+        </div>
+
+        <div class="timer-card">
+          <div class="timer-intro">
+            <p>Since the moment that started all this</p>
+
+            <span id="relationship-date"> Loading our little history... </span>
+          </div>
+
+          <div class="timer-grid">
+            <div class="timer-unit">
+              <strong id="years">0</strong>
+              <span>years</span>
+            </div>
+
+            <div class="timer-unit">
+              <strong id="days">0</strong>
+              <span>days</span>
+            </div>
+
+            <div class="timer-unit">
+              <strong id="hours">0</strong>
+              <span>hours</span>
+            </div>
+
+            <div class="timer-unit">
+              <strong id="minutes">0</strong>
+              <span>minutes</span>
+            </div>
+          </div>
+
+          <p class="timer-footer">
+            And somehow I still get excited when your name appears.
+          </p>
+        </div>
+      </section>
+
+      <!-- =================================================
+             SELF LOVE
+        ================================================== -->
+
+      <section id="self-love" class="section self-love-section">
+        <div class="section-number">03</div>
+
+        <div class="section-heading centered">
+          <p class="eyebrow">A small archive of you</p>
+
+          <h2>
+            You,
+            <span>being you.</span>
+          </h2>
+
+          <p class="section-description">
+            You always look beautiful but these always hit different.
+          </p>
+        </div>
+
+        <div class="polaroid-scene">
+          <!-- POLAROID 1 -->
+          <article class="polaroid polaroid-one">
+            <div class="photo-placeholder">
+              <img
+                src="Her/Pretty_without_trying.jpg"
+                alt="Pretty without trying"
+              />
+            </div>
+
+            <div class="polaroid-caption">pretty without trying.</div>
+          </article>
+
+          <!-- POLAROID 2 -->
+          <article class="polaroid polaroid-two">
+            <div class="photo-placeholder">
+              <img src="Her/My_fav_face.jpg" alt="Best face" />
+            </div>
+
+            <div class="polaroid-caption">my favourite face.</div>
+          </article>
+
+          <!-- POLAROID 3 -->
+          <article class="polaroid polaroid-three">
+            <div class="photo-placeholder">
+              <img src="Her/Unfairly_adorable.jpg" alt="Unfairly adorable" />
+            </div>
+
+            <div class="polaroid-caption">unfairly adorable.</div>
+          </article>
+
+          <!-- POLAROID 4 -->
+          <article class="polaroid polaroid-four">
+            <div class="photo-placeholder">
+              <img
+                src="Her/Keep_this_one_forever.jpg"
+                alt="Keep this one forever"
+              />
+            </div>
+
+            <div class="polaroid-caption">keep this one forever.</div>
+          </article>
+        </div>
+        <!-- POLAROID 5 -->
+          <article class="polaroid polaroid-five">
+            <div class="photo-placeholder">
+              <img
+                src="Her/I_can_keep_looking.jpg" 
+                alt="I can keep looking"
+              />
+            </div>
+
+            <div class="polaroid-caption">I can keep looking.</div>
+          </article>
+        </div>
+
+        <div class="scroll-note">
+          <span>↑</span>
+          more of her
+        </div>
+      </section>
+
+      <!-- =================================================
+             100 REASONS
+        ================================================== -->
+
+      <section id="reasons" class="section reasons-section">
+        <div class="section-number">04</div>
+
+        <div class="reasons-layout">
+          <div class="section-heading">
+            <p class="eyebrow">An unnecessarily long list</p>
+
+            <h2>
+              100 reasons
+              <span>why I love you. (click the dice)</span>
+            </h2>
+
+            <p class="section-description">
+              One hundred is honestly not enough, but humans apparently enjoy
+              round numbers.
+            </p>
+          </div>
+
+          <div class="reasons-box">
+            <div class="reason-number">001</div>
+
+            <p id="reason-text" class="reason-text">
+              The way you make ordinary days feel less ordinary.
+            </p>
+
+            <button
+              id="next-reason"
+              class="dice-button"
+              type="button"
+              aria-label="Roll the dice for a reason"
+            >
+              <span class="dice-scene">
+                <span class="dice">
+                  <span class="dice-face face-1"></span>
+                  <span class="dice-face face-2"></span>
+                  <span class="dice-face face-3"></span>
+                  <span class="dice-face face-4"></span>
+                  <span class="dice-face face-5"></span>
+                  <span class="dice-face face-6"></span>
+                </span>
+              </span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================================
+             MEMORIES
+        ================================================== -->
+
+      <section id="memories" class="section memories-section">
+        <div class="section-number">05</div>
+
+        <div class="section-heading centered">
+          <p class="eyebrow">Things worth keeping</p>
+
+          <h2>
+            Moments that
+            <span>stayed.</span>
+          </h2>
+        </div>
+
+        <div class="memory-line">
+          <article class="memory-item">
+            <span class="memory-date">THE BEGINNING</span>
+            <div class="memory-dot"></div>
+
+            <div class="memory-card">
+              <div class="memory-image">
+                <img src="Timeline/First_Text_ever_5_jan.png" alt="Our first text" />
+              </div>
+              <h3>Our first text.</h3>
+              <p>The tiny beginning that somehow became something this big.</p>
+            </div>
+          </article>
+
+          <article class="memory-item">
+            <span class="memory-date">SOMEWHERE ALONG THE WAY</span>
+            <div class="memory-dot"></div>
+
+            <div class="memory-card">
+              <div class="memory-image">
+                <img src="Timeline/Is_she_flirting_chat.png" alt="Is she flirting chat?" />
+              </div>
+              <h3>Is she flirting chat?</h3>
+              <p>I am still blushing.</p>
+            </div>
+          </article>
+
+          <article class="memory-item">
+            <span class="memory-date">AND THEN</span>
+            <div class="memory-dot"></div>
+
+            <div class="memory-card">
+              <div class="memory-image">
+                <img src="Timeline/Is she drunk gng.png" alt="Is she drunk gng?" />
+              </div>
+              <h3>Is she drunk gng?</h3>
+              <p>Ye pakka nashe kiye the isne.</p>
+            </div>
+          </article>
+          <article class="memory-item">
+            <span class="memory-date">DATE OR LITTLE LABEL</span>
+            <div class="memory-dot"></div>
+
+            <div class="memory-card">
+              <div class="memory-image">
+                <img src="Timeline/Playlist together 25 Mar.png" alt="Memory" />
+              </div>
+              <h3>The Playlist</h3>
+              <p>All the songs were for you</p>
+            </div>
+          </article>
+          <article class="memory-item">
+            <span class="memory-date">DATE OR LITTLE LABEL</span>
+            <div class="memory-dot"></div>
+
+            <div class="memory-card">
+              <div class="memory-image">
+                <img src="Timeline/Made it Official 2 Apr.png" alt="Memory" />
+              </div>
+              <h3>Exclusively yours baby</h3>
+              <p>I hope I am always yours</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- =================================================
+             POETRY
+        ================================================== -->
+
+      <!--
+      <section id="poetry" class="section poetry-section">
+        <div class="section-number">06</div>
+
+        <div class="poetry-container">
+          <p class="eyebrow">Things I don't know how to say normally</p>
+
+          <div class="poetry-paper">
+            <span class="paper-small">handwritten / probably overthinking</span>
+
+            <h2>
+              TITLE LINE 1
+              <span>TITLE LINE 2.</span>
+            </h2>
+
+            <p>First paragraph of the poem...</p>
+            <p>Next paragraph...</p>
+
+            <span class="paper-signature"> — me, unfortunately in love </span>
+          </div>
+        </div>
+      </section>
+      -->
+
+      
+
+      <!-- =================================================
+             FINAL
+        ================================================== -->
+
+      <section id="final" class="section final-section">
+        <div class="final-content">
+          <p class="eyebrow">06 / one last thing</p>
+
+          <h2>I really love you.</h2>
+
+          <p class="final-line">and yea...</p>
+
+          <h3>
+            you can call me
+            <span>lover boy.</span>
+          </h3>
+
+          <div class="final-heart">
+            ♡
+            <a href="lyrics.html" class="primary-button lyrics-page-button">
+              Songs that remind me of you ♫
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================================
+             MUSIC WIDGET
+        ================================================== -->
+
+      <div class="music-widget">
+        <span class="music-dot"></span>
+
+        <div>
+          <small>NOW PLAYING</small>
+          <strong id="music-title"> Tejano Blue - Cigarettes After Sex </strong>
+        </div>
+
+        <button id="music-toggle" type="button" aria-label="Toggle music">
+          ♫
+        </button>
+      </div>
+
+      <!-- MUSIC -->
+      <!-- Replace the src later with your actual music file -->
+
+      <audio
+        id="background-music"
+        src="Music 1/Tejano.mp3"
+        loop
+        preload="auto"
+      ></audio>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
